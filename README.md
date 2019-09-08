@@ -1,8 +1,11 @@
 # hubrank
-Customized ranking of the various projects on Github.
+Customized ranking of the various projects on Github. The app lets you get the repositories from any one of the following organizations: Netflix, TensorFlow, Ethereum, and rank these repositories using any one of the following metrics: Forks, Stargazers, Watchers.
 
 # How to launch/deploy the application
 The build folder has the fully built application. All that is required is to copy the contents of the build folder into a folder named 'hubrank' inside any HTTP Server's root server directory. For example, create a folder called 'hubrank' inside Apache Server's "htdocs" folder and then copy the build folder's contents into it. Then simply launch the application using the HTTP server's url followed by "/hubrank". For example, http://localhost/hubrank.
+
+# Screenshot
+![HubRank App](/screenshots/hubrank.png?raw=true "HubRank Application")
 
 # React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
