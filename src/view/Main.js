@@ -20,6 +20,7 @@ class Main extends React.Component {
                        : -1));
         });
         
+        /* TODO: Find better way of adding rank instead of looping through the list again. */
         let rank = 1;
         reposData.forEach((repo) => {
             repo.rank = rank++;
