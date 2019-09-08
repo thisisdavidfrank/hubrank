@@ -34,7 +34,7 @@ class Grid extends React.Component {
                     Cell: props => (
                                     <div key={props.original.id + '_name'}>
                                         <div className="info-cell">
-                                            <a href={props.value}>{props.value}</a>
+                                            <a target='_blank' href={props.original.html_url}>{props.value}</a>
                                         </div>
                                     </div>
                                     )
